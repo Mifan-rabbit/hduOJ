@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int gbs(int n1, int n2) //①辗转相除法；②参数无大小排序要求，若n2大，只是多做一次取余；
+int gbs(int n1, int n2)     //①辗转相除法；②参数无大小排序要求，若n2大，只是多做一次取余；
 {
     int temp, da = n1, xiao = n2;
     while (xiao != 0)
@@ -12,7 +12,7 @@ int gbs(int n1, int n2) //①辗转相除法；②参数无大小排序要求，
         da = xiao;
         xiao = temp;
     }
-    return (n1 / da * n2);
+    return (n1 / da * n2);      //先除后乘防止溢出
 }
 
 int main()
