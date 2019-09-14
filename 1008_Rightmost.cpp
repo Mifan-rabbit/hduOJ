@@ -1,5 +1,5 @@
 /*
-*用快速幂解题
+*需要找规律
 *
 *Problem Description
 *Given a positive integer N, you should output the most right digit of N^N.
