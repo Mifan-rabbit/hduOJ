@@ -22,19 +22,59 @@
 *5
 */
 
+/********************************************凑巧********************************************/
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int sequence[48] = {1, 1, 1}, a, b, now;
+    int sequence[336] = {1, 1, 1}, a, b, now;
     while (cin >> a >> b >> now && (a != 0 || b != 0 || now != 0))
     {
-        for (int n = 3; n < 48; n++)
+        for (int n = 3; n < 336; n++)
         {
             sequence[n] = (a * sequence[n - 1] + b * sequence[n - 2]) % 7;
         }
-        sequence[0] = (a * sequence[47] + b * sequence[46]) % 7;
-        cout << sequence[now % 48] << endl;
+        sequence[0] = (a * sequence[335] + b * sequence[334]) % 7;
+        cout << sequence[now % 336] << endl;
     }
 }
+
+/*
+*不严谨找周期
+*/
+#include <iostream>
+using namespace std;
+
+int period(int a, int b)
+{
+    int t = 0, f1 = 1, f2 = 1, temp;
+    if (a == 0 || b == 0)
+        return 12;
+    if ((a + b) % 7 == 1)
+        return 1;
+    while (1)
+    {
+        temp = (a * f2 + b * f1) % 7;
+        f1 = f2;
+        f2 = temp;
+        t++;
+        if (f1 == 1 && f2 == 1) /*再次遇到f1 = 1，f2 = 1的时候跳出*/
+            break;
+    }
+    return t;
+}
+
+int main()
+{
+    for (int i = 0; i < 7; i++)
+    {
+        for (int j = 0; j < 7; j++)
+        {
+            cout << period(i, j) << "\t";
+        }
+        cout << endl;
+    }
+}
+
+/********************************************矩阵快速幂********************************************/
