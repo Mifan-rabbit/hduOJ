@@ -1,4 +1,6 @@
 /*
+*用快速幂解题
+*
 *Problem Description
 *求A^B的最后三位数表示的整数。<br>说明：A^B的含义是“A的B次方”<br>
 * 
