@@ -78,3 +78,57 @@ int main()
 }
 
 /********************************************矩阵快速幂********************************************/
+#include <iostream>
+using namespace std;
+
+class Matrix
+{
+public:
+    int m[2][2];
+    Matrix(int a = 1, int b = 0, int c = 0, int d = 1)
+    {
+        m[0][0] = a;
+        m[0][1] = b;
+        m[1][0] = c;
+        m[1][1] = d;
+    }
+
+    Matrix operator*(const Matrix &rhs)
+    {
+        Matrix temp(0, 0, 0, 0); //注意要初始化temp矩阵
+        for (int i = 0; i < 2; i++)
+            for (int j = 0; j < 2; j++)
+            {
+                for (int k = 0; k < 2; k++)
+                {
+                    temp.m[i][j] = (temp.m[i][j] + m[i][k] * rhs.m[k][j]) % 7;
+                }
+            }
+
+        return temp;
+    }
+};
+int main()
+{
+    int n1, n2, n3;
+    while (cin >> n1 >> n2 >> n3 && (n1 != 0 || n2 != 0 || n3 != 0))
+    {
+        Matrix t(n1, n2, 1, 0), ans;
+        if (n3 < 3)
+        {
+            cout << 1 << endl;
+            continue;
+        }
+        n3 -= 2;
+        while (n3)
+        {
+            if (n3 & 1)
+            {
+                ans = ans * t;
+            }
+            t = t * t;
+            n3 >>= 1;
+        }
+        cout << (ans.m[0][0] + ans.m[0][1]) % 7 << endl;
+    }
+}
