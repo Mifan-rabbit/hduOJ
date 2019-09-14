@@ -47,3 +47,32 @@ int main()
         cout << A << endl;
     }
 }
+
+
+/******补充快速乘******/
+#include <iostream>
+using namespace std;
+
+int mul(int a, int b)
+{
+    int ans = 0;
+    int temp = a;
+    while (b)
+    {
+        if (b & 1)
+        {
+            ans = ans + temp;
+        }
+        temp = temp * 2;
+        b >>= 1;
+    }
+    return ans;
+}
+int main()
+{
+    int a, b;
+    while (cin >> a >> b)
+    {
+        cout << mul(a, b) << endl;
+    }
+}
