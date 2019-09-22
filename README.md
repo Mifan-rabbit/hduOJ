@@ -47,6 +47,6 @@ goodluck
     * 若田忌最弱的马比齐王最强的马弱，则拿田忌最弱的马和齐王最强的马比；
 
 ### [FrogsNeighborhood](http://acm.hdu.edu.cn/webcontest/contest_showproblem.php?pid=1010&ojid=1&cid=13365&hide=1&problem=Problem%20%20J)
-* Havel-Hakimi定理
+* `Havel-Hakimi定理`
 由非负整数组成的非增序列S：d1, d2, ..., dn(n≥2, d1≥1) 是可图的，<br>当且仅当序列S1：d2 - 1, d3 - 1, ..., dd1 + 1 - 1, dd1 + 2, ..., dn是可图的。<br>其中，序列S1中有n - 1个非负整数，S序列中d1后的前d1个度数(即d2 ~dd1 + 1) 减1后构成S1中的前d1个数。<br>
 
