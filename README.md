@@ -18,11 +18,11 @@ goodluck
 
 ### [1009_FatMouseTrade](http://acm.hdu.edu.cn/showproblem.php?pid=1009)
 
-    初用`sort`
+* 初用`sort`
     
 ### [1050_MovingTables](http://acm.hdu.edu.cn/showproblem.php?pid=1050) 
 
-    刷油漆的方法标记搬桌子过程中要经过的走廊，需要的次数即为最高刷漆次数
+* 刷油漆的方法标记搬桌子过程中要经过的走廊，需要的次数即为最高刷漆次数
     
 ### [1789_DoingHomeworkagain](http://acm.hdu.edu.cn/showproblem.php?pid=1789) 
 
