@@ -43,8 +43,6 @@ int main()
 /*
 *不严谨找周期
 */
-#include <iostream>
-using namespace std;
 
 int period(int a, int b)
 {
