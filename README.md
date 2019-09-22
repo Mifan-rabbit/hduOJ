@@ -26,7 +26,7 @@ goodluck
     
 ### [1789_DoingHomeworkagain](http://acm.hdu.edu.cn/showproblem.php?pid=1789) 
 
-* 思路：用数组记录已经用于写分更高的日子；
+* 思路：用数组记录已经用于写分更高的作业的日子；
 * 初用`memset()`，函数有三个参数:
   * 第一个参数为首地址;
   * 第二个参数为0或者-1或者单个字符(注意用单引号);
