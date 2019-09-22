@@ -5,18 +5,18 @@ goodluck
 ## 第一周 简单的数学题
 
 ### [1019_LeastCommonMultiple](http://acm.hdu.edu.cn/showproblem.php?pid=1019)
-* 辗转相除法求最大公因数
+* `辗转相除法`求最大公因数
 * 先除后乘防止数据太大而溢出
 
 ### [1005_NumberSequence](http://acm.hdu.edu.cn/showproblem.php?pid=1005)	
-* 快速矩阵幂
+* `快速矩阵幂`
 * 也可以找规律，a、b共49种可能
 
 ### [1021_FibonacciAgain](http://acm.hdu.edu.cn/showproblem.php?pid=1021)
 * 找规律
 
 ### [2035_MyPowAB](http://acm.hdu.edu.cn/showproblem.php?pid=2035)
-* 快速幂（tip:转二进制）
+* `快速幂`（tip:转二进制）
 * 右移（>>）比除二更快
 
 ### [1061_Rightmost](http://acm.hdu.edu.cn/showproblem.php?pid=1061)
