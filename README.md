@@ -77,7 +77,7 @@ goodluck
 * 故：s(n)=s(n-1)+2*(2n-1)-1
 
 ### [2190_](http://acm.hdu.edu.cn/showproblem.php?pid=2190)[classroom](https://github.com/Mifan-rabbit/hduOJ/blob/master/2190_classroom.md)
-* 降维，建立1\*3【1种】 和 2\*3【2种，减去完全用1\*1方块铺的】的基础块;
+* 降维，建立**1\*3**【1种】 和 **2\*3**【2种，减去完全用1\*1方块铺的】的基础块;
 * 若前 n-1 米已经铺好，则在最后加一块 1\*3 的基础块，即 f(n)=f(n-1);
 * 若前 n-2 米已经铺好，则在最后加一块 2\*3 的基础块， 即f(n)= 2\*f(n-2);
 * 故 f(n) = f(n-1) + 2\*f(n-2)
