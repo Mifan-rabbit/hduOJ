@@ -72,7 +72,7 @@ goodluck
 ### [2050_](http://acm.hdu.edu.cn/showproblem.php?pid=2050)[Broken Line](https://github.com/Mifan-rabbit/hduOJ/blob/master/2050_BrokenLine.md)
 * 直线切割平面，第n条直线与n-1条直线相交，产生n-1个结点，增加n个区域；
 * 折线切割平面:
-** 第n条折线分为第2n条和第2n-1条直线，分别于2n-2条直线相交，产生2n-2个结点，分别增加2n-1个区域；
-** 折线自带的顶点使得减少一个区域；
+  * 第n条折线分为第2n条和第2n-1条平行直线，分别于2n-2条直线相交，产生2n-2个结点，分别增加2n-1个区域；
+  * 折线有顶点，两平行线相交于一个端点，使得减少一个区域；
 * 故：s(n)=s(n-1)+2*(2n-1)-1
 
