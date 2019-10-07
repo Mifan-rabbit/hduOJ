@@ -1,0 +1,42 @@
+### Problem Description
+RPG难题:<br>
+有排成一行的ｎ个方格，用红(Red)、粉(Pink)、绿(Green)三色涂每个格子，每格涂一色，<br>
+要求任何相邻的方格不能同色，且首尾两格也不同色．求全部的满足要求的涂法.<br>
+
+### Input
+输入数据包含多个测试实例,每个测试实例占一行,由一个整数N组成，(0<n<=50)。<br>
+ 
+### Output
+对于每个测试实例，请输出全部的满足要求的涂法，每个实例的输出占一行。<br>
+ 
+### Sample Input
+1<br>
+2<br>
+ 
+### Sample Output
+3<br>
+6<br>
+
+
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    long long int paint[51], N;
+    paint[1] = 3;
+    paint[2] = 6;
+    paint[3] = 6;
+    for (int i = 4; i < 51; i++)
+    {
+        paint[i] = paint[i - 1] + 2 * paint[i - 2];
+    }
+    while (cin >> N)
+    {
+        cout << paint[N] << endl;
+    }
+    return 0;
+}
+```
