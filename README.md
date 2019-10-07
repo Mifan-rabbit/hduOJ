@@ -60,7 +60,7 @@ goodluck
 当且仅当序列S1：d2 - 1, d3 - 1, ..., dd1 + 1 - 1, dd1 + 2, ..., dn是可图的。<br>
 其中，序列S1中有n - 1个非负整数，S序列中d1后的前d1个度数(即d2 ~dd1 + 1) 减1后构成S1中的前d1个数。<br>
 
-## 第四周 递推求解
+## 第三周 递推求解
 ### [2041_](http://acm.hdu.edu.cn/showproblem.php?pid=2041)[Super stairs](https://github.com/Mifan-rabbit/hduOJ/blob/master/2041_SuperStairs.cpp)
 * 在前面走法正确的情况下，最后连走一步或两步，故：f(n) = f(n-1) + f(n-2)
 
