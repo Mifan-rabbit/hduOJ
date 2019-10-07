@@ -64,7 +64,7 @@ goodluck
 ### [2041_](http://acm.hdu.edu.cn/showproblem.php?pid=2041)[Super stairs](https://github.com/Mifan-rabbit/hduOJ/blob/master/2041_SuperStairs.cpp)
 * 在前面走法正确的情况下，最后连走一步或两步，故：f(n) = f(n-1) + f(n-2)
 
-###[2045 ](http://acm.hdu.edu.cn/showproblem.php?pid=2045)[RPG]()
+### [2045 ](http://acm.hdu.edu.cn/showproblem.php?pid=2045)[RPG](https://github.com/Mifan-rabbit/hduOJ/blob/master/2045_RPG.md)
 * 若前n-1位组成的串合法，则由于首尾不同，再添加一位时，只有1种方法；
 * 若前n-1位组成的串不合法,则由于首尾相同，再添加一位时，共有2种方法；
 * 故：s(n) = s(n-1)+2*s(n-2)
