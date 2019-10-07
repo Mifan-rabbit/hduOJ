@@ -54,7 +54,7 @@ goodluck
     * 若田忌最弱的马强和齐王最强的马一样，则剩下的马比赛一定平局；
     * 若田忌最弱的马比齐王最强的马弱，则拿田忌最弱的马和齐王最强的马比；
 
-### [Frogs_](http://acm.hdu.edu.cn/webcontest/contest_showproblem.php?pid=1010&ojid=1&cid=13365&hide=1&problem=Problem%20%20J)[Neighborhood](https://github.com/Mifan-rabbit/hduOJ/blob/master/FrogsNeighborhood.cpp)
+### [Frogs_](http://acm.hdu.edu.cn/webcontest/contest_showproblem.php?pid=1010&ojid=1&cid=13365&hide=1&problem=Problem%20%20J)[Neighborhood](https://github.com/Mifan-rabbit/hduOJ/blob/master/FrogsNeighborhood.md)
 * `Havel-Hakimi定理`<br>
 由非负整数组成的非增序列S：d1, d2, ..., dn(n≥2, d1≥1) 是可图的，<br>
 当且仅当序列S1：d2 - 1, d3 - 1, ..., dd1 + 1 - 1, dd1 + 2, ..., dn是可图的。<br>
