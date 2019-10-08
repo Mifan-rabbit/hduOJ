@@ -84,3 +84,8 @@ goodluck
 
 ### [1134 ](http://acm.hdu.edu.cn/showproblem.php?pid=1134)[Game of Connections](https://github.com/Mifan-rabbit/hduOJ/blob/master/1134_GameofConnections.md)
 * 初遇`卡特兰数`
+
+### [2536 ](http://acm.hdu.edu.cn/showproblem.php?pid=2563)[statistics](https://github.com/Mifan-rabbit/hduOJ/blob/master/2536_statistics.md)
+* 第n步可以与第n-1步同向；也可以向上；
+* 若第n-1步向上，第n步有↑、←、→三种选择；
+* 故：f(n)=2f(n-1)+f(n-2)；
