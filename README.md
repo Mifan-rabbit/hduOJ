@@ -81,3 +81,5 @@ goodluck
 * 若前 n-1 米已经铺好，则在最后加一块 1\*3 的基础块，即 f(n)=f(n-1);
 * 若前 n-2 米已经铺好，则在最后加一块 2\*3 的基础块， 即f(n)= 2\*f(n-2);
 * 故 f(n) = f(n-1) + 2\*f(n-2)
+
+### [1134 ](http://acm.hdu.edu.cn/showproblem.php?pid=1134)[Game of Connections](https://github.com/Mifan-rabbit/hduOJ/blob/master/1134_GameofConnections.md)
