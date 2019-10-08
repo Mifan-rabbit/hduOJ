@@ -64,7 +64,7 @@ goodluck
 ### [2041_](http://acm.hdu.edu.cn/showproblem.php?pid=2041)[Super stairs](https://github.com/Mifan-rabbit/hduOJ/blob/master/2041_SuperStairs.cpp)
 * 在前面走法正确的情况下，最后连走一步或两步，故：f(n) = f(n-1) + f(n-2)
 
-### [2045 ](http://acm.hdu.edu.cn/showproblem.php?pid=2045)[RPG](https://github.com/Mifan-rabbit/hduOJ/blob/master/2045_RPG.md)
+### [2045_](http://acm.hdu.edu.cn/showproblem.php?pid=2045)[RPG](https://github.com/Mifan-rabbit/hduOJ/blob/master/2045_RPG.md)
 * 若前n-1位组成的串合法，则由于首尾不同，再添加一位时，只有1种方法；
 * 若前n-1位组成的串不合法,则由于首尾相同，再添加一位时，共有2种方法；
 * 故：s(n) = s(n-1)+2*s(n-2)
@@ -82,10 +82,10 @@ goodluck
 * 若前 n-2 米已经铺好，则在最后加一块 2\*3 的基础块， 即f(n)= 2\*f(n-2);
 * 故 f(n) = f(n-1) + 2\*f(n-2)
 
-### [1134 ](http://acm.hdu.edu.cn/showproblem.php?pid=1134)[Game of Connections](https://github.com/Mifan-rabbit/hduOJ/blob/master/1134_GameofConnections.md)
+### [1134_](http://acm.hdu.edu.cn/showproblem.php?pid=1134)[Game of Connections](https://github.com/Mifan-rabbit/hduOJ/blob/master/1134_GameofConnections.md)
 * 初遇`卡特兰数`
 
-### [2536 ](http://acm.hdu.edu.cn/showproblem.php?pid=2563)[statistics](https://github.com/Mifan-rabbit/hduOJ/blob/master/2536_statistics.md)
+### [2536_](http://acm.hdu.edu.cn/showproblem.php?pid=2563)[statistics](https://github.com/Mifan-rabbit/hduOJ/blob/master/2536_statistics.md)
 * 第n步可以与第n-1步同向；也可以向上；
 * 若第n-1步向上，第n步有↑、←、→三种选择；
 * 故：f(n)=2f(n-1)+f(n-2)；
