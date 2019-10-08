@@ -83,3 +83,4 @@ goodluck
 * 故 f(n) = f(n-1) + 2\*f(n-2)
 
 ### [1134 ](http://acm.hdu.edu.cn/showproblem.php?pid=1134)[Game of Connections](https://github.com/Mifan-rabbit/hduOJ/blob/master/1134_GameofConnections.md)
+* 初遇`卡特兰数`
