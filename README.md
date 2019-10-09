@@ -89,3 +89,7 @@ goodluck
 * 第n步可以与第n-1步同向；也可以向上；
 * 若第n-1步向上，第n步有↑、←、→三种选择；
 * 故：f(n)=2f(n-1)+f(n-2)；
+
+## 第四周 动态规划
+### [2084_](http://acm.hdu.edu.cn/showproblem.php?pid=2084)[数塔](https://github.com/Mifan-rabbit/hduOJ/blob/master/2084_%E6%95%B0%E5%A1%94.md)
+* 自顶向下的分析，自底向上的计算
