@@ -1,12 +1,15 @@
 /*
 *Problem Description
-*A number sequence is defined as follows:<br><br>f(1) = 1, f(2) = 1, <br>
-*f(n) = (A * f(n - 1) + B * f(n - 2)) mod 7.<br>
-*Given A, B, and n, you are to calculate the value of f(n).<br>
+*A number sequence is defined as follows:<br><br>f(1) = 1, f(2) = 1, 
+*f(n) = (A * f(n - 1) + B * f(n - 2)) mod 7.
+*Given A, B, and n, you are to calculate the value of f(n).
 * 
 *
 *Input
-*The input consists of multiple test cases. Each test case contains 3 integers A, B and n on a single line (1 <= A, B <= 1000, 1 <= n <= 100,000,000). Three zeros signal the end of input and this test case is not to be processed.<br>
+*The input consists of multiple test cases. 
+*Each test case contains 3 integers A, B and n on a single line 
+*(1 <= A, B <= 1000, 1 <= n <= 100,000,000). 
+*Three zeros signal the end of input and this test case is not to be processed.
 * 
 *
 *Output
