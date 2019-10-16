@@ -101,3 +101,6 @@ goodluck
 ## 第四周 动态规划
 ### [2084_](http://acm.hdu.edu.cn/showproblem.php?pid=2084)[数塔](https://github.com/Mifan-rabbit/hduOJ/blob/master/2084_%E6%95%B0%E5%A1%94.md)
 * 自顶向下的分析，自底向上的计算
+
+### [1176_](http://acm.hdu.edu.cn/showproblem.php?pid=1176)[免费馅饼](https://github.com/Mifan-rabbit/hduOJ/blob/master/1176_%E5%85%8D%E8%B4%B9%E9%A6%85%E9%A5%BC.md)
+* 以坐标点为横轴，以时间点为纵轴，建立数塔（除边缘坐标，每个坐标点的值是下一行与其相邻的三个的最大值）
