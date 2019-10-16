@@ -108,4 +108,9 @@ goodluck
 ### [1087_](http://acm.hdu.edu.cn/showproblem.php?pid=1087)[Super Jumping! Jumping! Jumping!](https://github.com/Mifan-rabbit/hduOJ/blob/master/1087_Super%20Jumping.md)
 * 计算每个格子最大增序子序列的和，第n个数的该值是其之前比它小的、最大增序子序列的和最大的数加本身
 
-### [1421_](http://acm.hdu.edu.cn/showproblem.php?pid=1421)[搬寝室]()
+### [1421_](http://acm.hdu.edu.cn/showproblem.php?pid=1421)[搬寝室](https://github.com/Mifan-rabbit/hduOJ/blob/master/1421_%E6%90%AC%E5%AF%9D%E5%AE%A4.md)
+* 平方可以用面积形象化表示，得出面积越小，体力消耗越小，则要求物体重量相邻；
+* 建立f[i][j]数组，表示从i个物体中选j个；
+* 有两种情况：
+  * 包括第i个: f[i][j]=f[i-1][j-1]+(N[i]-N(i-1)) * (N[i]-N(i-1))
+  * 不包括第i个: f[i][j]=f[i-1][j]
