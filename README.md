@@ -6,10 +6,28 @@ goodluck
 
 ### [1019_](http://acm.hdu.edu.cn/showproblem.php?pid=1019)[LeastCommonMultiple](https://github.com/Mifan-rabbit/hduOJ/blob/master/1019_LeastCommonMultiple.cpp)
 * `辗转相除法`求最大公因数
+  + 大数 % 小数 = 余数
+  + 大数 = 小数， 小数 = 余数
+  + 循环上面两步， 直到余数（已经赋给小数）为0
+  + 最大公因数就是此时的大数
 * 先除后乘防止数据太大而溢出
 
 ### [1005_](http://acm.hdu.edu.cn/showproblem.php?pid=1005)[NumberSequence](https://github.com/Mifan-rabbit/hduOJ/blob/master/1005_NumberSequence.cpp)
 * `快速矩阵幂`
+  + f(n)=Af(n-1)+Bf(n-2)
+  +
+$$
+A_{mn}=
+\begin{vmatrix}
+a_{00}&a_{01}&{\cdots}&{a_{0n}}\\
+a_{10}&a_{11}&{\cdots}&{a_{1n}}\\
+{\vdots}&{\vdots}&{\ddots}&{\vdots}\\
+a_{m0}&a_{m1}&{\cdots}&{a_{mn}}\\
+\end{vmatrix}
+$$
+
+  + |f( n )|=|A B|×|f(n-1)|
+  + |f(n-1)| |1 0| |f(n-2)|
 * 也可以找规律，a、b共49种可能
 
 ### [1021_](http://acm.hdu.edu.cn/showproblem.php?pid=1021)[FibonacciAgain](https://github.com/Mifan-rabbit/hduOJ/blob/master/1021_FibonacciAgain.cpp)
