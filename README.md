@@ -23,6 +23,7 @@ goodluck
 * 找规律
 
 ### [2035_](http://acm.hdu.edu.cn/showproblem.php?pid=2035)[MyPowAB](https://github.com/Mifan-rabbit/hduOJ/blob/master/2035_MyPowAB.cpp)
+* 只计算要求的那几位，忽略高位数
 * `快速幂`（tip:转二进制）
 * 右移（>>）比除二更快
 
