@@ -1,6 +1,8 @@
 /*
 *Problem Description
-*A number sequence is defined as follows:<br><br>f(1) = 1, f(2) = 1, f(n) = (A * f(n - 1) + B * f(n - 2)) mod 7.<br><br>Given A, B, and n, you are to calculate the value of f(n).<br>
+*A number sequence is defined as follows:<br><br>f(1) = 1, f(2) = 1, <br>
+*f(n) = (A * f(n - 1) + B * f(n - 2)) mod 7.<br>
+*Given A, B, and n, you are to calculate the value of f(n).<br>
 * 
 *
 *Input
