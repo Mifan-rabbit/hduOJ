@@ -133,3 +133,6 @@ goodluck
 * 固定其中一个数据元素，求另一个数据最长有序子列
 * 记录每一个元素到该元素的最长有序子列 && 它最长有序子列的倒数第二个元素
 
+### [1003_](http://acm.hdu.edu.cn/showproblem.php?pid=1003)[Max Sum](https://github.com/Mifan-rabbit/hduOJ/blob/master/1003_Max%20Sum.md)
+* 用k记录起始位置，每当sum小于零时，则从下一位开始重新累加sum，k+=1;
+* 当sum大于maxsum时，更新maxsum的值和起点的值；
