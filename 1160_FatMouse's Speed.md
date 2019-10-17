@@ -1,9 +1,9 @@
->Problem Description<br>
+>### Problem Description<br>
 >FatMouse believes that the fatter a mouse is, the faster it runs. To disprove this, you want to take <br>
 >the data on a collection of mice and put as large a subset of this data as possible into a sequence <br>
 >so that the weights are increasing, but the speeds are decreasing.<br>
 > <br>
->Input<br>
+>### Input<br>
 >Input contains data for a bunch of mice, one mouse per line, terminated by end of file.<br>
 ><br>
 >The data for a particular mouse will consist of a pair of integers: the first representing <br>
@@ -11,7 +11,7 @@
 >are between 1 and 10000. The data in each test case will contain information for at most 1000 mice.<br>
 >Two mice may have the same weight, the same speed, or even the same weight and speed.<br>
 > <br>
->Output<br>
+>### Output<br>
 >Your program should output a sequence of lines of data; the first line should contain a number n; <br>
 >the remaining n lines should each contain a single positive integer (each one representing a mouse).<br>
 >If these n integers are m[1], m[2],..., m[n] then it must be the case that<br>
@@ -26,7 +26,7 @@
 >All inequalities are strict: weights must be strictly increasing, and speeds must be strictly <br>
 >decreasing. There may be many correct outputs for a given input, your program only needs to find one.<br>
 > <br>
->Sample Input<br>
+>### Sample Input<br>
 >6008 1300<br>
 >6000 2100<br>
 >500 2000<br>
@@ -37,7 +37,7 @@
 >6000 1200<br>
 >2000 1900<br>
 > <br>
->Sample Output<br>
+>### Sample Output<br>
 >4<br>
 >4<br>
 >5<br>
