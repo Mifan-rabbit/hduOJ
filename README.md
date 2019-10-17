@@ -109,8 +109,24 @@ goodluck
 * 计算每个格子最大增序子序列的和，第n个数的该值是其之前比它小的、最大增序子序列的和最大的数加本身
 
 ### [1421_](http://acm.hdu.edu.cn/showproblem.php?pid=1421)[搬寝室](https://github.com/Mifan-rabbit/hduOJ/blob/master/1421_%E6%90%AC%E5%AF%9D%E5%AE%A4.md)
-* 平方可以用面积形象化表示，得出面积越小，体力消耗越小，则要求物体重量相邻；
+* 平方可以用面积形象化表示，得出面积越小，体力消耗越小，则要求物体重量相邻：
+  * (a-b)^2+(c-d)^2< (a-c)^2+(b-d)^2
+  * (a-b)^2+(c-d)^2< (a-d)^2+(b-c)^2
 * 建立f[i][j]数组，表示从i个物体中选j个；
 * 有两种情况：
   * 包括第i个: f[i][j]=f[i-2][j-1]+(N[i]-N(i-1)) * (N[i]-N(i-1))
-  * 不包括第i个: f[i][j]=f[i-1][j]???
+  * 不包括第i个: f[i][j]=f[i-1][j]
+  
+### [1058_](http://acm.hdu.edu.cn/showproblem.php?pid=1058)[Humble Numbers](https://github.com/Mifan-rabbit/hduOJ/blob/master/1058_Humble%20Numbers.md)
+* 关于数字后缀：
+  * 除了13，个位是3的数以rd结尾；
+  * 除了12，个位是2的数以nd结尾；
+  * 除了11，个位是1的数以st结尾；
+  * 其它 以th结尾
+* F(n)=min(F(i) * 2,F(j) * 3,F(k) * 5,F(m) * 7) (n>i,j,k,m) 特别的：i,j,k,m 只有在本项被选中后才移动
+  * 1 ->2=min(1*2,1*3,1*5,1*7)
+  * 1 ->2 ->3=min(2*2,1*3,1*5,1*7)
+  * 1 ->2 ->3 -> 4 = min(2*2,2*3,1*5,1*7)
+  * 1 ->2 ->3 -> 4 ->5= min(3*2,2*3,1*5,1*7)
+
+
