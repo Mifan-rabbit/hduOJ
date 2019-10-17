@@ -73,7 +73,7 @@ int main()
         m[i].all_num = 0;
         for (int j = i - 1; j >= 0; j--)
         {
-            if (m[i].all_num < m[j].all_num && m[i].s < m[j].s && m[i].w > m[j].w)
+            if (m[i].all_num < m[j].all_num && m[i].s < m[j].s )
             {
                 m[i].all_num = m[j].all_num;
                 m[i].former = j;
