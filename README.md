@@ -129,7 +129,7 @@ goodluck
   * 1 ->2 ->3 -> 4 = min(2 * 2, 2 * 3, 1 * 5, 1 * 7)
   * 1 ->2 ->3 -> 4 ->5= min(3 * 2, 2 * 3, 1 * 5, 1 * 7)
 
-### [1160](http://acm.hdu.edu.cn/showproblem.php?pid=1160)[FatMouse's Speed](https://github.com/Mifan-rabbit/hduOJ/blob/master/1160_FatMouse's%20Speed.md)
+### [1160_](http://acm.hdu.edu.cn/showproblem.php?pid=1160)[FatMouse's Speed](https://github.com/Mifan-rabbit/hduOJ/blob/master/1160_FatMouse's%20Speed.md)
 * 固定其中一个数据元素，求另一个数据最长有序子列
 * 记录每一个元素到该元素的最长有序子列 && 它最长有序子列的倒数第二个元素
 
