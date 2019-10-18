@@ -139,3 +139,8 @@ goodluck
 
 ### [4540_](http://acm.hdu.edu.cn/showproblem.php?pid=4540)[威威猫系列故事——打地鼠](https://github.com/Mifan-rabbit/hduOJ/blob/master/4540_%E5%A8%81%E5%A8%81%E7%8C%AB%E7%B3%BB%E5%88%97%E6%95%85%E4%BA%8B%E2%80%94%E2%80%94%E6%89%93%E5%9C%B0%E9%BC%A0.md)
 * 状态转移方程：dp[i][j] = min(dp[i][j],dp[i+1][x]+abs(a[i][j]-a[i+1][x]))
+
+### [1159_](http://acm.hdu.edu.cn/showproblem.php?pid=1159)[Common Subsequence](https://github.com/Mifan-rabbit/hduOJ/blob/master/1159_Common%20Subsequence.md)
+* f(i-1,j-1)+1 (a[i]==b[j])
+* max(f(i-1,j),f(i,j-1)) (a[i]!=b[j]) 
+* 一直推到f(len(a),len(b))就得到所要求的解
