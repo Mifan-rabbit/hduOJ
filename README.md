@@ -158,5 +158,5 @@ goodluck
 
 ### [1203_](http://acm.hdu.edu.cn/showproblem.php?pid=1203)[I NEED A OFFER!](https://github.com/Mifan-rabbit/hduOJ/blob/master/1203_I%20NEED%20A%20OFFER.md)
 
-### [2159_](http://acm.hdu.edu.cn/showproblem.php?pid=2159)[FATE]()
+### [2159_](http://acm.hdu.edu.cn/showproblem.php?pid=2159)[FATE](https://github.com/Mifan-rabbit/hduOJ/blob/master/2159_FATE.md)
 
