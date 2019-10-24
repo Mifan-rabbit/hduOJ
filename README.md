@@ -147,10 +147,34 @@ goodluck
 
 ## 第五周 背包
 ### [2606_](http://acm.hdu.edu.cn/showproblem.php?pid=2602)[Bone Collector](https://github.com/Mifan-rabbit/hduOJ/blob/master/2606_Bone%20Collector.md)
+* 01背包：每种物品仅有一件，可以选择放或不放，用子问题定义状态：即f[i][v]表示前i件物品放入一个容量为v的背包可以获得的最大价值；
+* 状态转移方程：f[i][v]=max{f[i-1][v],f[i-1][v-c[i]]+w[i]}；
+* 可优化到一维：<br>
+&emsp;for i = 1 to n  //所有物品<br>
+&emsp;&emsp;   for j = V to v[i] //反向便利，防止由于覆盖导致一件物品被多次装入背包<br>
+&emsp;&emsp;&emsp;        dp[j] = max(dp[j] , dp[j-v[i]] + w[i]);<br>
 
 ### [1114_](http://acm.hdu.edu.cn/showproblem.php?pid=1114)[Piggy-Bank](https://github.com/Mifan-rabbit/hduOJ/blob/master/1114_Piggy-Bank.md)
+* 完全背包：一种物品可以取无数个；
+* 问题目的：求该重量下最少的钱，背包容量为重量，价值为钱，越小越好，需先初始化为一个超大值；
+* 和01背包类似,不过就是正着写；
+* memset是按字节初始化，memset(a,1,sizeof(a))获得数组a的元素的值为-1，好奇怪哦；
 
 ### [2191_](http://acm.hdu.edu.cn/showproblem.php?pid=2191)[悼念512汶川大地震遇难同胞——珍惜现在，感恩生活](https://github.com/Mifan-rabbit/hduOJ/blob/master/2191_%E6%82%BC%E5%BF%B5%E6%B1%B6%E5%B7%9D%E5%A4%A7%E5%9C%B0%E9%9C%87.md)
+* 多重背包：一种物品有C个；
+* 可将一种有C个的物品拆分成1,2,4,...,2^(k-1),C-(2^k-1)：<br>
+&emsp;int t = 1;<br>
+&emsp;while (x>=t) {<br>
+&emsp;&emsp;	v[cnt] = a*t;<br>
+&emsp;&emsp;	c[cnt++] = b*t;<br>
+&emsp;&emsp;	x -= t;<br>
+&emsp;&emsp;	t <<= 1;<br>
+&emsp;}<br>
+&emsp;if (x) {<br>
+&emsp;&emsp;	v[cnt] = a*x;<br>
+&emsp;&emsp;	c[cnt++] = b*x;<br>
+&emsp;}<br>
+* 
 
 ### [1171_](http://acm.hdu.edu.cn/showproblem.php?pid=1171)[Big Event in HDU](https://github.com/Mifan-rabbit/hduOJ/blob/master/1171_Big%20Event%20in%20HDU.md)
 
