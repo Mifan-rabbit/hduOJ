@@ -156,8 +156,7 @@ goodluck
 
 ### [1248_](http://acm.hdu.edu.cn/showproblem.php?pid=1248)[寒冰王座](https://github.com/Mifan-rabbit/hduOJ/blob/master/1248_%E5%AF%92%E5%86%B0%E7%8E%8B%E5%BA%A7.md)
 
-### []()[]()
+### [1203_](http://acm.hdu.edu.cn/showproblem.php?pid=1203)[I NEED A OFFER!](https://github.com/Mifan-rabbit/hduOJ/blob/master/1203_I%20NEED%20A%20OFFER.md)
 
-### []()[]()
+### [2159_](http://acm.hdu.edu.cn/showproblem.php?pid=2159)[FATE]()
 
-### []()[]()
