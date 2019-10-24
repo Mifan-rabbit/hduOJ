@@ -61,9 +61,9 @@ int main()
             all += facility[i].M * facility[i].V; //总价值
         }
         mid = all / 2;
-        for (int i = 0; i < N; i++) //有N种大米
+        for (int i = 0; i < N; i++) //有N种机器
         {
-            for (int j = 0; j < facility[i].M; j++) //该种大米有facility[i].M袋
+            for (int j = 0; j < facility[i].M; j++) //该种机器有facility[i].M个
             {
                 for (int k = mid; k >= facility[i].V; k--) //以价值为容量的背包，使背包里的价值最大
                 {
