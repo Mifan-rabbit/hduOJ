@@ -7,11 +7,10 @@
 >total value the bone collector can get ?<br>
 ><br>
 >### Input<br>
->The first line contain a integer T , the number of cases.<br>
->Followed by T cases , each case three lines , the first line contain two integer N , V,<br>
->(N <= 1000 , V <= 1000 )representing the number of bones and the volume of his bag. And <br>
->the second line contain N integers representing the value of each bone. The third line <br>
->contain N integers representing the volume of each bone.<br>
+>The first line contain a integer T , the number of cases.Followed by T cases , each case three lines , <br>
+>the first line contain two integer N , V,(N <= 1000 , V <= 1000 )representing the number of bones <br>
+>and the volume of his bag.And the second line contain N integers representing the value of each bone. <br>
+>The third line contain N integers representing the volume of each bone.<br>
 > <br>
 >### Output<br>
 >One integer per line representing the maximum of the total value (this number will be less than 231).<br>
