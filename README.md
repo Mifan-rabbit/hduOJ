@@ -174,13 +174,18 @@ goodluck
 &emsp;&emsp;	v[cnt] = a*x;<br>
 &emsp;&emsp;	c[cnt++] = b*x;<br>
 &emsp;}<br>
-* 
+* 然后进行01背包
 
 ### [1171_](http://acm.hdu.edu.cn/showproblem.php?pid=1171)[Big Event in HDU](https://github.com/Mifan-rabbit/hduOJ/blob/master/1171_Big%20Event%20in%20HDU.md)
+* 以机器价值为容量，以机器价值为背包价值，使其尽可能大
 
 ### [1248_](http://acm.hdu.edu.cn/showproblem.php?pid=1248)[寒冰王座](https://github.com/Mifan-rabbit/hduOJ/blob/master/1248_%E5%AF%92%E5%86%B0%E7%8E%8B%E5%BA%A7.md)
+* 多重背包
 
 ### [1203_](http://acm.hdu.edu.cn/showproblem.php?pid=1203)[I NEED A OFFER!](https://github.com/Mifan-rabbit/hduOJ/blob/master/1203_I%20NEED%20A%20OFFER.md)
+* 概率计算
 
 ### [2159_](http://acm.hdu.edu.cn/showproblem.php?pid=2159)[FATE](https://github.com/Mifan-rabbit/hduOJ/blob/master/2159_FATE.md)
-
+* 二维费用背包：对于每件物品，具有两种不同的费用；选择这件物品必须同时付出这两种代价；对于每种代价都有一个可付出的最大值（比如，背包容量、最大承重），求怎样选择物品可以得到最大的价值。
+* 费用加了一维，只需状态也加一维即可！状态转移方程则为：f[i][v][u]=max{f[i-1][v][u],f[i-1][v-a[i]][u-b[i]]+w[i]}
+* 用min记录最少的忍耐度消耗
