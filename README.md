@@ -144,3 +144,20 @@ goodluck
 * f(i-1,j-1)+1 (a[i]==b[j])
 * max(f(i-1,j),f(i,j-1)) (a[i]!=b[j]) 
 * 一直推到f(len(a),len(b))就得到所要求的解
+
+## 第五周 背包
+### [2606_](http://acm.hdu.edu.cn/showproblem.php?pid=2602)[Bone Collector](https://github.com/Mifan-rabbit/hduOJ/blob/master/2606_Bone%20Collector.md)
+
+### [1114_](http://acm.hdu.edu.cn/showproblem.php?pid=1114)[Piggy-Bank](https://github.com/Mifan-rabbit/hduOJ/blob/master/1114_Piggy-Bank.md)
+
+### [2191_](http://acm.hdu.edu.cn/showproblem.php?pid=2191)[悼念512汶川大地震遇难同胞——珍惜现在，感恩生活](https://github.com/Mifan-rabbit/hduOJ/blob/master/2191_%E6%82%BC%E5%BF%B5%E6%B1%B6%E5%B7%9D%E5%A4%A7%E5%9C%B0%E9%9C%87.md)
+
+### [1171_](http://acm.hdu.edu.cn/showproblem.php?pid=1171)[Big Event in HDU](https://github.com/Mifan-rabbit/hduOJ/blob/master/1171_Big%20Event%20in%20HDU.md)
+
+### []()[]()
+
+### []()[]()
+
+### []()[]()
+
+### []()[]()
