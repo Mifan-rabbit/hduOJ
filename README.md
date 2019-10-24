@@ -188,4 +188,5 @@ goodluck
 ### [2159_](http://acm.hdu.edu.cn/showproblem.php?pid=2159)[FATE](https://github.com/Mifan-rabbit/hduOJ/blob/master/2159_FATE.md)
 * 二维费用背包：对于每件物品，具有两种不同的费用；选择这件物品必须同时付出这两种代价；对于每种代价都有一个可付出的最大值（比如，背包容量、最大承重），求怎样选择物品可以得到最大的价值。
 * 费用加了一维，只需状态也加一维即可！状态转移方程则为：f[i][v][u]=max{f[i-1][v][u],f[i-1][v-a[i]][u-b[i]]+w[i]}
+* 由于一类怪可以杀很多次，所以正着循环
 * 用min记录最少的忍耐度消耗
