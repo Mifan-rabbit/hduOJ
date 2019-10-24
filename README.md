@@ -154,7 +154,7 @@ goodluck
 
 ### [1171_](http://acm.hdu.edu.cn/showproblem.php?pid=1171)[Big Event in HDU](https://github.com/Mifan-rabbit/hduOJ/blob/master/1171_Big%20Event%20in%20HDU.md)
 
-### []()[]()
+### [1248_](http://acm.hdu.edu.cn/showproblem.php?pid=1248)[寒冰王座](https://github.com/Mifan-rabbit/hduOJ/blob/master/1248_%E5%AF%92%E5%86%B0%E7%8E%8B%E5%BA%A7.md)
 
 ### []()[]()
 
