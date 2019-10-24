@@ -14,8 +14,7 @@
 >contain N integers representing the volume of each bone.<br>
 > <br>
 >### Output<br>
->One integer per line representing the maximum of the total value (this number will be<br> 
->less than 231).<br>
+>One integer per line representing the maximum of the total value (this number will be less than 231).<br>
 > <br>
 >### Sample Input<br>
 >1<br>
