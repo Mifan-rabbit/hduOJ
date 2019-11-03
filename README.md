@@ -192,6 +192,10 @@ goodluck
 * 用min记录最少的忍耐度消耗
 
 ## 第六周 bfs
+### [1548_](http://acm.hdu.edu.cn/showproblem.php?pid=1548)[A strange lift](https://github.com/Mifan-rabbit/hduOJ/blob/master/1548_A%20strange%20lift.md)
+* 到过的楼层做标记
+* 考虑两个方向（上、下）
+
 ### [1242_](http://acm.hdu.edu.cn/showproblem.php?pid=1242)[Rescue](https://github.com/Mifan-rabbit/hduOJ/blob/master/1242_Rescue.md)
 * 天使只有一个，但天使的朋友有很多，可以让天使去找朋友，结果就是找到第一个朋友所需要的时间
 * 设置一个结构体，记录坐标和时间
@@ -201,10 +205,12 @@ goodluck
 
 ### [1253_](http://acm.hdu.edu.cn/showproblem.php?pid=1253)[胜利大逃亡](https://github.com/Mifan-rabbit/hduOJ/blob/master/1253_%E8%83%9C%E5%88%A9%E5%A4%A7%E9%80%83%E4%BA%A1.md)
 * 起点可以是墙，但终点如果是墙，就走不出去了
-
-### [1548_](http://acm.hdu.edu.cn/showproblem.php?pid=1548)[A strange lift](https://github.com/Mifan-rabbit/hduOJ/blob/master/1548_A%20strange%20lift.md)
+* 循环结束后，记得清空队列
 
 ### [1495](http://acm.hdu.edu.cn/showproblem.php?pid=1495)[非常可乐](https://github.com/Mifan-rabbit/hduOJ/blob/master/1495_%E9%9D%9E%E5%B8%B8%E5%8F%AF%E4%B9%90.md)
+* 六种倒法，先在三个瓶子中选一个作为倒水瓶（大for循环），再从剩下两个瓶子中选一个作为接水瓶子（小for循环）
+* 同样要记录出现过的情况，这里采用二维数组（因为第三瓶水量可以通过另外两瓶计算出），减少空间容量
 
 ### [1372_](http://acm.hdu.edu.cn/showproblem.php?pid=1372)[Knight Moves](https://github.com/Mifan-rabbit/hduOJ/blob/master/1372_Knight%20Moves.md)
+* 骑士“日”字走，有八个方向
 
