@@ -190,3 +190,13 @@ goodluck
 * 费用加了一维，只需状态也加一维即可！状态转移方程则为：f[i][v][u]=max{f[i-1][v][u],f[i-1][v-a[i]][u-b[i]]+w[i]}
 * 由于一类怪可以杀很多次，所以正着循环
 * 用min记录最少的忍耐度消耗
+
+## 第六周 bfs
+### [1242_](http://acm.hdu.edu.cn/showproblem.php?pid=1242)[Rescue](https://github.com/Mifan-rabbit/hduOJ/blob/master/1242_Rescue.md)
+
+### [1253_](http://acm.hdu.edu.cn/showproblem.php?pid=1253)[胜利大逃亡](https://github.com/Mifan-rabbit/hduOJ/blob/master/1253_%E8%83%9C%E5%88%A9%E5%A4%A7%E9%80%83%E4%BA%A1.md)
+
+### []()[]()
+### []()[]()
+### []()[]()
+### []()[]()
