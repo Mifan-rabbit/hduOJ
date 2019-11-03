@@ -193,8 +193,14 @@ goodluck
 
 ## 第六周 bfs
 ### [1242_](http://acm.hdu.edu.cn/showproblem.php?pid=1242)[Rescue](https://github.com/Mifan-rabbit/hduOJ/blob/master/1242_Rescue.md)
+* 天使只有一个，但天使的朋友有很多，可以让天使去找朋友，结果就是找到第一个朋友所需要的时间
+* 设置一个结构体，记录坐标和时间
+* 天使一次只能走四个方向，写入数组，用for遍历
+* 用next_p记录下一个位置信息，注意判断该位置是否可以走时坐标不能越界且未访问
+* 用一个mark数组标记已经走过的路或发现的墙，防止死循环
 
 ### [1253_](http://acm.hdu.edu.cn/showproblem.php?pid=1253)[胜利大逃亡](https://github.com/Mifan-rabbit/hduOJ/blob/master/1253_%E8%83%9C%E5%88%A9%E5%A4%A7%E9%80%83%E4%BA%A1.md)
+* 起点可以是墙，但终点如果是墙，就走不出去了
 
 ### [1548_](http://acm.hdu.edu.cn/showproblem.php?pid=1548)[A strange lift](https://github.com/Mifan-rabbit/hduOJ/blob/master/1548_A%20strange%20lift.md)
 
