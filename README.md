@@ -196,7 +196,9 @@ goodluck
 
 ### [1253_](http://acm.hdu.edu.cn/showproblem.php?pid=1253)[胜利大逃亡](https://github.com/Mifan-rabbit/hduOJ/blob/master/1253_%E8%83%9C%E5%88%A9%E5%A4%A7%E9%80%83%E4%BA%A1.md)
 
-### []()[]()
-### []()[]()
-### []()[]()
-### []()[]()
+### [1548_](http://acm.hdu.edu.cn/showproblem.php?pid=1548)[A strange lift](https://github.com/Mifan-rabbit/hduOJ/blob/master/1548_A%20strange%20lift.md)
+
+### [1495](http://acm.hdu.edu.cn/showproblem.php?pid=1495)[非常可乐](https://github.com/Mifan-rabbit/hduOJ/blob/master/1495_%E9%9D%9E%E5%B8%B8%E5%8F%AF%E4%B9%90.md)
+
+### [1372_](http://acm.hdu.edu.cn/showproblem.php?pid=1372)[Knight Moves](https://github.com/Mifan-rabbit/hduOJ/blob/master/1372_Knight%20Moves.md)
+
