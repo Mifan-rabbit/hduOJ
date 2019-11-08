@@ -222,6 +222,13 @@ goodluck
 * 能进行二分查找的一定是能找到对应的x,为了达到精度，退出条件为high - low > 1e-6，这样middle的第四位小数不在会有变化；
 
 ### [2899_](http://acm.hdu.edu.cn/showproblem.php?pid=2899)[Strange fuction](https://github.com/Mifan-rabbit/hduOJ/blob/master/2899_Strange%20fuction.md)
+* 由于函数不是单调的，所以用三分查找：
+  * 将范围分成三部分：
+    * low__mlow__mhigh_high
+    * 当f(mhigh)>f(mlow)，最小值在mhigh-low之间，使high=mhigh;
+    * 当f(mhigh)<f(mlow)，最小值在mlow-high之间，使low=mlow;
+    * 当f(mhigh)=f(mlow)，最小值在mlow-mhigh之间,使high=mhigh,low=mlow;
+  * 跳出循环条件：high - low > 1e-6
 
 ### [1969_](http://acm.hdu.edu.cn/showproblem.php?pid=1969)[Pie](https://github.com/Mifan-rabbit/hduOJ/blob/master/1969_Pie.md)
 
