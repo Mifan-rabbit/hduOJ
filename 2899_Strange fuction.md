@@ -17,7 +17,7 @@
 >### Sample Output<br>
 >-74.4291<br>
 >-178.8534<br> 
-<br> 
+
 ```cpp
 #include <iostream>
 #include <cmath>
@@ -57,4 +57,5 @@ int main()
         tripple(y);
     }
 }
+
 ```
