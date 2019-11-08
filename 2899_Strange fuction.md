@@ -35,12 +35,18 @@ void tripple(double y)
     {
         mlow = low + (high - low) / 3;
         mhigh = high - (high - low) / 3;
-        if (formulation(mlow, y) > formulation(mhigh, y))
+        double flow = formulation(mlow, y), fhigh = formulation(mhigh, y);
+        if (flow > fhigh)
         {
             low = mlow;
         }
+        else if ((flow < fhigh))
+        {
+            high = mhigh;
+        }
         else
         {
+            low = mlow;
             high = mhigh;
         }
     }
