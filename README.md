@@ -231,11 +231,23 @@ goodluck
   * 跳出循环条件：high - low > 1e-6
 
 ### [1969_](http://acm.hdu.edu.cn/showproblem.php?pid=1969)[Pie](https://github.com/Mifan-rabbit/hduOJ/blob/master/1969_Pie.md)
+* 二分查找法
+* 最大的情况，不用分，每人一个蛋糕
+* 求体积不要先乘PI，否则分的时候会降低精读
 
 ### [1905_](http://acm.hdu.edu.cn/showproblem.php?pid=1905)[Pseudoprime numbers](https://github.com/Mifan-rabbit/hduOJ/blob/master/1905_Pseudoprime%20numbers.md)
+* 快速幂again
 
 ### [2648_](http://acm.hdu.edu.cn/showproblem.php?pid=2648)[Shopping](https://github.com/Mifan-rabbit/hduOJ/blob/master/2648_Shopping.md)
+* 初用map（键值对）
+  * map<string, int> myMap; //构造
+  * myMap[key] = value; //插入
+  * myMap.erase(myMap.begin(), myMap.end()); //清空
 
 ### [2141_](http://acm.hdu.edu.cn/showproblem.php?pid=2141)[Can you find it?](https://github.com/Mifan-rabbit/hduOJ/blob/master/2141_Can%20you%20find%20it%3F.md)
+* 先合并第一行和第二行的数据为sum，再固定第三行数据，用二分查找法在sum中找是否存在数使总和为d
 
 ### [1010_](http://acm.hdu.edu.cn/showproblem.php?pid=1010)[Tempter of the Bone](https://github.com/Mifan-rabbit/hduOJ/blob/master/1010_Tempter%20of%20the%20Bone.md)
+* 深度优先搜索：走一步，标记已走，进栈，此路不通，退栈，标记改为未走
+* 剪枝： 对一定不行的路，不进行深度优先搜索
+* 一定不行的路： 曼哈顿路径长度是最短的长度，偏出去就要走回来，所以减去最短必走的长度后，剩下可以走的长度要是偶数，不然不能偏移了
