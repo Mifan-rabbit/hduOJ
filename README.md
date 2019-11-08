@@ -217,6 +217,9 @@ goodluck
 
 ## 第七周&emsp;&emsp;二分查找、三分查找、dfs
 ### [2199_](http://acm.hdu.edu.cn/showproblem.php?pid=2199)[Can you solve this equation?](https://github.com/Mifan-rabbit/hduOJ/blob/master/2199_Can%20you%20solve%20this%20equation%3F.md)
+* 二分查找：若值大于中值，最大值等于中值；若值小于中值，最小值等于中值
+* 先剪枝：如果该值不在函数的最大值和最小值之间，就不进行二分查找；
+* 能进行二分查找的一定是能找到对应的x,为了达到精度，退出条件为high - low > 1e-6，这样middle的第四位小数不在会有变化；
 
 ### [2899_](http://acm.hdu.edu.cn/showproblem.php?pid=2899)[Strange fuction](https://github.com/Mifan-rabbit/hduOJ/blob/master/2899_Strange%20fuction.md)
 
