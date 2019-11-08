@@ -233,7 +233,7 @@ goodluck
 ### [1969_](http://acm.hdu.edu.cn/showproblem.php?pid=1969)[Pie](https://github.com/Mifan-rabbit/hduOJ/blob/master/1969_Pie.md)
 * 二分查找法
 * 最大的情况，不用分，每人一个蛋糕
-* 求体积不要先乘PI，否则分的时候会降低精读
+* 求体积不要先乘PI，否则分的时候会降低精度
 
 ### [1905_](http://acm.hdu.edu.cn/showproblem.php?pid=1905)[Pseudoprime numbers](https://github.com/Mifan-rabbit/hduOJ/blob/master/1905_Pseudoprime%20numbers.md)
 * 快速幂again
