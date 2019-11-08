@@ -214,3 +214,18 @@ goodluck
 ### [1372_](http://acm.hdu.edu.cn/showproblem.php?pid=1372)[Knight Moves](https://github.com/Mifan-rabbit/hduOJ/blob/master/1372_Knight%20Moves.md)
 * 骑士“日”字走，有八个方向
 
+
+## 第七周&emsp;&emsp;二分查找、三分查找、dfs
+### [2199_](http://acm.hdu.edu.cn/showproblem.php?pid=2199)[Can you solve this equation?](https://github.com/Mifan-rabbit/hduOJ/blob/master/2199_Can%20you%20solve%20this%20equation%3F.md)
+
+### [2899_](http://acm.hdu.edu.cn/showproblem.php?pid=2899)[Strange fuction](https://github.com/Mifan-rabbit/hduOJ/blob/master/2899_Strange%20fuction.md)
+
+### [1969_](http://acm.hdu.edu.cn/showproblem.php?pid=1969)[Pie](https://github.com/Mifan-rabbit/hduOJ/blob/master/1969_Pie.md)
+
+### [1905_](http://acm.hdu.edu.cn/showproblem.php?pid=1905)[Pseudoprime numbers](https://github.com/Mifan-rabbit/hduOJ/blob/master/1905_Pseudoprime%20numbers.md)
+
+### [2648_](http://acm.hdu.edu.cn/showproblem.php?pid=2648)[Shopping](https://github.com/Mifan-rabbit/hduOJ/blob/master/2648_Shopping.md)
+
+### [2141_](http://acm.hdu.edu.cn/showproblem.php?pid=2141)[Can you find it?](https://github.com/Mifan-rabbit/hduOJ/blob/master/2141_Can%20you%20find%20it%3F.md)
+
+### [1010_](http://acm.hdu.edu.cn/showproblem.php?pid=1010)[Tempter of the Bone](https://github.com/Mifan-rabbit/hduOJ/blob/master/1010_Tempter%20of%20the%20Bone.md)
