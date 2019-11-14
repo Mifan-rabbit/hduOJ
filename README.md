@@ -251,3 +251,11 @@ goodluck
 * 深度优先搜索：走一步，标记已走，进栈，此路不通，退栈，标记改为未走
 * 剪枝： 对一定不行的路，不进行深度优先搜索
 * 一定不行的路： 曼哈顿路径长度是最短的长度，偏出去就要走回来，所以减去最短必走的长度后，剩下可以走的长度要是偶数，不然不能偏移了
+
+## 第八周 
+
+###[1078_](http://acm.hdu.edu.cn/showproblem.php?pid=1078)[FatMouse and Cheese](https://github.com/Mifan-rabbit/hduOJ/blob/master/1078_FatMouse%20and%20Cheese.md)
+* 记忆搜索
+
+###[2571_](http://acm.hdu.edu.cn/showproblem.php?pid=2571)[命运](https://github.com/Mifan-rabbit/hduOJ/blob/master/2571_%E5%91%BD%E8%BF%90.md)
+* 动态规划
