@@ -291,3 +291,14 @@ p | n | p | n | n | n | n | p | n | p | n | n | n |...
 p | n | n | p | n | n | p | n | n | p | n | n | p |...
 
 * 也可以用SG函数，即用mes集合记录i点所有能到达的点，SG\[i]的值即为不包含mes的最小非负整数，若SG\[i]!=0,则为必赢点；
+
+### [1848_](http://acm.hdu.edu.cn/showproblem.php?pid=1848)[Fibonacci again and again](https://github.com/Mifan-rabbit/hduOJ/blob/master/1848_Fibonacci%20again%20and%20again.md)
+* 用上题SG函数，当且仅当SG\[i1]^SG\[i2]^SG\[i3]==0时，是必败点；
+
+### [1849_](http://acm.hdu.edu.cn/showproblem.php?pid=1849)[Rabbit and Grass](https://github.com/Mifan-rabbit/hduOJ/blob/master/1849_Rabbit%20and%20Grass.md)
+* 如果只有一个棋子，无论在哪，先手赢；
+* 如果有两个棋子A和B，如果A=B，后手只要模仿先手行为，就可以赢；
+* 对于三个及以上的棋子可由上面两种情况递推得到结果（但是记忆搜索有点废空间）；
+* 如果 i1^i2^i3^i4^i5^...^in=0, 那么后手赢（把每个棋子当作Nim模型的一堆石头，想赢的话，使任意一堆等于其余异或结果）； 
+
+### []()[]()
