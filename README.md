@@ -303,7 +303,8 @@ p | n | n | p | n | n | p | n | n | p | n | n | p |...
 
 ### [2147_](http://acm.hdu.edu.cn/showproblem.php?pid=2147)[kiki's game](https://github.com/Mifan-rabbit/hduOJ/blob/master/2147_kikis%20game.md)
 
-   |  1  |  2  |  3  |  4  |  5  | 6   | 7  
+
+n/p|  1  |  2  |  3  |  4  |  5  | 6   | 7  
 :-:| :-: | :-: | :-: | :-: | :-: | :-: | :-: 
 6  |  n  |  n  |  n  |  n  |  n  |  n  | n 
 5  |  p  |  n  |  p  |  n  |  p  |  n  | p 
