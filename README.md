@@ -302,7 +302,7 @@ p | n | n | p | n | n | p | n | n | p | n | n | p |...
 * 如果 i1^i2^i3^i4^i5^...^in=0, 那么后手赢（把每个棋子当作Nim模型的一堆石头，想赢的话，使任意一堆等于其余异或结果）； 
 
 ### [2147_](http://acm.hdu.edu.cn/showproblem.php?pid=2147)[kiki's game](https://github.com/Mifan-rabbit/hduOJ/blob/master/2147_kikis%20game.md)
-
+* 可以看出行列都为奇数的时候，是必输点；
 
 n/p|  1  |  2  |  3  |  4  |  5  | 6   | 7  
 :-:| :-: | :-: | :-: | :-: | :-: | :-: | :-: 
