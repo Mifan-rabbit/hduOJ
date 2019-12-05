@@ -259,3 +259,25 @@ goodluck
 
 ### [2571_](http://acm.hdu.edu.cn/showproblem.php?pid=2571)[命运](https://github.com/Mifan-rabbit/hduOJ/blob/master/2571_%E5%91%BD%E8%BF%90.md)
 * 动态规划
+
+## 第九周
+
+## 第十周
+
+## 第十一周组合博弈入门
+
+### [1846_](http://acm.hdu.edu.cn/showproblem.php?pid=1846)[Brave Game](https://github.com/Mifan-rabbit/hduOJ/blob/master/1846_Brave%20Game.md)
+* 设p为必输点，n为必赢点，且满足三点：
+  * 终结点都是必输点；
+  * 必输点只能走到必赢点；
+  * 必赢点至少有一种方法走到必输点；
+* 假设一次只能取{1，2，3},即m值为3，可以发现每隔3个有一个必输点：
+0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |...
+:-: | :-: | :-: | :-: | :-:| :-: | :-: | :-: | :-:| :-: | :-: | :-: | :-: | :-:
+p | n | n | n | p | n | n | n | p | n | n | n | p |... 
+* 假设一次能取{1，3，4}
+0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |...
+:-: | :-: | :-: | :-: | :-:| :-: | :-: | :-: | :-:| :-: | :-: | :-: | :-: | :-:
+p | n | p | n | n | n | n | p | n | p | n | n | n |...
+
+### [1847](http://acm.hdu.edu.cn/showproblem.php?pid=1847)[Good Luck in CET-4 Everybody!]()
