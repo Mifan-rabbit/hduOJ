@@ -264,7 +264,7 @@ goodluck
 
 ## 第十周
 
-## 第十一周组合博弈入门
+## 第十一周 组合博弈入门
 
 ### [1846_](http://acm.hdu.edu.cn/showproblem.php?pid=1846)[Brave Game](https://github.com/Mifan-rabbit/hduOJ/blob/master/1846_Brave%20Game.md)
 * 设p为必输点，n为必赢点，且满足三点：
@@ -301,4 +301,12 @@ p | n | n | p | n | n | p | n | n | p | n | n | p |...
 * 对于三个及以上的棋子可由上面两种情况递推得到结果（但是记忆搜索有点废空间）；
 * 如果 i1^i2^i3^i4^i5^...^in=0, 那么后手赢（把每个棋子当作Nim模型的一堆石头，想赢的话，使任意一堆等于其余异或结果）； 
 
-### []()[]()
+### [2147_](http://acm.hdu.edu.cn/showproblem.php?pid=2147)[kiki's game](https://github.com/Mifan-rabbit/hduOJ/blob/master/2147_kikis%20game.md)
+   |  1  |  2  |  3  |  4  |  5  | 6   | 7  
+:-:| :-: | :-: | :-: | :-: | :-: | :-: | :-: 
+6  |  n  |  n  |  n  |  n  |  n  |  n  | n 
+5  |  p  |  n  |  p  |  n  |  p  |  n  | p 
+4  |  n  |  n  |  n  |  n  |  n  |  n  | n 
+3  |  p  |  n  |  p  |  n  |  p  |  n  | p 
+2  |  n  |  n  |  n  |  n  |  n  |  n  | n 
+1  |  p  |  n  |  p  |  n  |  p  |  n  | p 
